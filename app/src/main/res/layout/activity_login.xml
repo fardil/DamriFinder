@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6BB4D6"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".login.LoginActivity"
-    android:background="#6BB4D6">
+    tools:context=".login.LoginActivity">
 
     <ImageView
         android:layout_width="150dp"
@@ -18,24 +18,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:hint="Username"/>
+        android:hint="Username" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:hint="Password"/>
+        android:hint="Password" />
 
     <com.google.android.material.button.MaterialButton
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="0dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
         android:text="forgot password?"
 
-        app:cornerRadius="8dp"/>
+        app:cornerRadius="8dp" />
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
@@ -43,7 +43,7 @@
         android:layout_margin="8dp"
         android:background="#004599"
         android:text="Login"
-        app:cornerRadius="8dp"/>
+        app:cornerRadius="8dp" />
 
     <com.google.android.material.button.MaterialButton
         style="@style/Widget.MaterialComponents.Button.TextButton"
@@ -51,7 +51,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:text="Register"
-        app:cornerRadius="8dp"
-        />
+        app:cornerRadius="8dp" />
 
 </LinearLayout>
